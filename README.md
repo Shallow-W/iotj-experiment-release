@@ -1,6 +1,13 @@
-# IoTJ 补充实验代码与结果
+# IoTJ experiment code and results
 
-本目录按“审稿人 → 单张最终入文图片 → 图片与对应数据”的层级整理。范围严格以四份 response_draft/reviewer_*_response_with_data.md 中实际嵌入的 PNG 为准，共 14 张图：
+Companion repository for *A Two-Plane Hierarchical Framework for Scalable Joint Microservice Deployment and Request Routing in Dynamic Internet of Vehicles*.
+
+- [Original manuscript experiments](paper-exp/README.md) includes the historical training code, simulator inputs, training records and the manuscript figure index.
+- [Revision experiment runners and inputs](EXPERIMENTS.md) documents the supplementary experiments. Their final figures and plotting code are indexed below.
+
+## 返修补充实验
+
+下列四组覆盖回复材料中的 14 张补充实验图。各图目录保存原图、源结果表和重画脚本。
 
 | 审稿人 | 图片数 | 目录 |
 |---|---:|---|
