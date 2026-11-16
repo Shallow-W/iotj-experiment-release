@@ -1,0 +1,310 @@
+{
+  "metadata": {
+    "experiment_id": "R1-1",
+    "title": "Experimental parameters and reproducibility table",
+    "date": "2026-07-20",
+    "scope": "Default configuration for the resubmission parameter table and the follow-up sensitivity experiments.",
+    "status_legend": {
+      "confirmed_from_code": "The value is explicitly used by the current experiment scripts.",
+      "confirmed_from_paper": "The value is explicitly stated in the current manuscript.",
+      "confirmed_from_data": "The value is extracted from the xlsx data files actually read by the experiment scripts.",
+      "revision_default": "The value is proposed as the default for the revised manuscript and should be used consistently in the new experiments.",
+      "derived_default": "The value is derived from an explicit rule and the default scenario scale.",
+      "to_confirm": "The source files do not contain a single explicit value; confirm with the authors before final manuscript insertion."
+    }
+  },
+  "data_and_topology": {
+    "dataset": {
+      "value": "PeMS03",
+      "status": "confirmed_from_paper"
+    },
+    "time_window_minutes": {
+      "value": 5,
+      "unit": "min",
+      "status": "confirmed_from_paper"
+    },
+    "selected_detectors": {
+      "value": 189,
+      "status": "confirmed_from_paper"
+    },
+    "base_stations_with_detectors": {
+      "value": 95,
+      "status": "confirmed_from_paper"
+    },
+    "default_mec_servers": {
+      "value": 50,
+      "status": "confirmed_from_code"
+    },
+    "scalability_mec_servers": {
+      "value": [50, 75, 100],
+      "status": "confirmed_from_code"
+    },
+    "microservice_types": {
+      "value": 10,
+      "status": "confirmed_from_code"
+    },
+    "default_request_classes": {
+      "value": 5,
+      "status": "confirmed_from_data",
+      "note": "The request.xlsx header has five request statistic columns: a-e."
+    },
+    "service_chain_templates": {
+      "value": 5,
+      "status": "confirmed_from_data",
+      "note": "The app.xlsx non-empty SFC template rows are r1-r5 with lengths [3,4,4,2,2]."
+    },
+    "request_total_sum": {
+      "value": 1390,
+      "status": "confirmed_from_data",
+      "note": "The implementation reads row 302 of request.xlsx; per-class totals are [100,50,100,1000,140]."
+    },
+    "request_time_slots": {
+      "value": 300,
+      "status": "confirmed_from_data"
+    },
+    "traffic_to_request_scale_kappa": {
+      "value": "to_confirm",
+      "status": "to_confirm"
+    },
+    "server_type_ratio_low_mid_high": {
+      "value": [1, 1, 1],
+      "status": "confirmed_from_paper",
+      "note": "Nominal ratio in the manuscript."
+    },
+    "server_type_counts_low_mid_high": {
+      "value": [17, 17, 16],
+      "status": "confirmed_from_data",
+      "note": "Actual counts in the first 50 rows read from node_resource.xlsx."
+    },
+    "server_resources": {
+      "low_end": {
+        "cpu_cores": 4,
+        "memory_gb": 16,
+        "disk_gb": 500,
+        "gpu_gb": 0
+      },
+      "mid_range": {
+        "cpu_cores": 32,
+        "memory_gb": 64,
+        "disk_gb": 1024,
+        "gpu_gb": 0
+      },
+      "high_end": {
+        "cpu_cores": 64,
+        "memory_gb": 256,
+        "disk_gb": 4096,
+        "gpu_gb": 64
+      },
+      "status": "confirmed_from_data",
+      "note": "The current manuscript table states 96 GB GPU for high-end servers, but node_resource.xlsx uses 64 GB in the actual implementation data."
+    }
+  },
+  "communication_model": {
+    "alpha": {
+      "value": 1.0,
+      "status": "revision_default",
+      "note": "Hop-count fitting coefficient after using 1 km as the reference distance."
+    },
+    "beta": {
+      "value": 1.2,
+      "status": "revision_default",
+      "note": "Mild non-linear hop-count growth for dense urban backhaul."
+    },
+    "d0": {
+      "value": 1.0,
+      "unit": "km",
+      "status": "revision_default",
+      "note": "Aligned with the 1 km BS spacing in the manuscript."
+    },
+    "T_sw": {
+      "value": 1.0,
+      "unit": "ms",
+      "status": "revision_default",
+      "note": "Per-hop switching delay used in the revised communication model."
+    },
+    "c_sig": {
+      "value": 200000000.0,
+      "unit": "m/s",
+      "status": "revision_default",
+      "note": "Signal propagation speed in the wired/wireless backhaul medium."
+    },
+    "missing_traffic_delay": {
+      "value": 400,
+      "unit": "ms",
+      "status": "confirmed_from_code"
+    }
+  },
+  "resource_degradation_model": {
+    "rho_th": {
+      "value": 0.7,
+      "status": "revision_default"
+    },
+    "varphi": {
+      "value": 1.0,
+      "status": "revision_default"
+    },
+    "f_min": {
+      "value": 0.2,
+      "status": "revision_default",
+      "note": "Lower bound added for high-load stability."
+    },
+    "function": {
+      "value": "f(rho)=1 if rho<=rho_th, otherwise max(f_min, 1-varphi*(rho-rho_th)^2)",
+      "status": "revision_default"
+    }
+  },
+  "fpdwgc_clustering": {
+    "sigma_delay": {
+      "value": 1.0,
+      "status": "revision_default",
+      "note": "Dimensionless default after min-max normalizing T_tran in each evaluation window."
+    },
+    "sigma_res": {
+      "value": 1.0,
+      "status": "revision_default",
+      "note": "Dimensionless default after normalizing the resource-pressure difference."
+    },
+    "xi": {
+      "value": 0.8,
+      "status": "revision_default",
+      "note": "Resource safety threshold; keeps roughly 20 percent residual buffer."
+    },
+    "cluster_size_min_mec": {
+      "value": 5,
+      "status": "revision_default"
+    },
+    "cluster_size_max_mec": {
+      "value": 15,
+      "status": "revision_default"
+    },
+    "target_mec_per_cluster": {
+      "value": 10,
+      "status": "revision_default"
+    },
+    "cluster_count_rule": {
+      "value": "K=ceil(M/10)",
+      "status": "derived_default"
+    }
+  },
+  "mpd3qn_training": {
+    "episodes": {
+      "value": 1000,
+      "status": "confirmed_from_code"
+    },
+    "learning_rate": {
+      "value": 0.001,
+      "status": "confirmed_from_code"
+    },
+    "discount_factor_gamma": {
+      "value": 0.99,
+      "status": "confirmed_from_code"
+    },
+    "epsilon_initial": {
+      "value": 1.0,
+      "status": "confirmed_from_code"
+    },
+    "epsilon_decay": {
+      "value": 200,
+      "status": "confirmed_from_code",
+      "note": "Exponential schedule: eps=min_eps+(max_eps-min_eps)*exp(-episode/epsilon_decay)."
+    },
+    "epsilon_min": {
+      "value": 0.005,
+      "status": "confirmed_from_code"
+    },
+    "epsilon_max": {
+      "value": 0.95,
+      "status": "confirmed_from_code"
+    },
+    "replay_buffer_size": {
+      "value": 1024,
+      "status": "confirmed_from_code"
+    },
+    "batch_size": {
+      "value": 128,
+      "status": "confirmed_from_code"
+    },
+    "target_network_update": {
+      "value": "every episode",
+      "status": "confirmed_from_code"
+    }
+  },
+  "action_mask": {
+    "invalid_action_rule": {
+      "value": "A deployment action is invalid if any residual resource dimension of the selected MEC server is smaller than the resource demand of the target microservice.",
+      "status": "confirmed_from_code"
+    },
+    "mask_penalty_eta": {
+      "value": 1000000000.0,
+      "status": "confirmed_from_code",
+      "note": "Implemented as q_value=-1e9 in the state-action mask variant."
+    },
+    "T_mask": {
+      "value": "all training episodes",
+      "status": "revision_default",
+      "note": "Use permanent hard masking for feasibility; do not re-enable infeasible resource actions during training."
+    }
+  },
+  "per": {
+    "priority_alpha": {
+      "value": 0.6,
+      "status": "confirmed_from_code"
+    },
+    "importance_beta_initial": {
+      "value": 0.4,
+      "status": "confirmed_from_code"
+    },
+    "beta_increment": {
+      "value": 0.001,
+      "status": "confirmed_from_code"
+    },
+    "priority_epsilon": {
+      "value": 0.000001,
+      "status": "confirmed_from_code"
+    },
+    "priority_formula": {
+      "value": "priority=(abs(TD_error)+eps)^alpha",
+      "status": "confirmed_from_code"
+    }
+  },
+  "reward_and_objective_weights": {
+    "training_reward": {
+      "value": "reward=-(T_tran+T_queue+T_missing)",
+      "status": "confirmed_from_code"
+    },
+    "delay_component_weights": {
+      "T_tran": 1.0,
+      "T_queue": 1.0,
+      "T_missing": 1.0,
+      "status": "confirmed_from_code"
+    },
+    "objective_weights": {
+      "upsilon_1_delay": 1.0,
+      "upsilon_2_intra_cluster_load_variance": 0.1,
+      "upsilon_3_inter_cluster_load_variance": 0.1,
+      "upsilon_4_cross_domain_ratio": 0.1,
+      "status": "revision_default",
+      "note": "Use after normalizing each objective term; delay remains the primary objective."
+    }
+  },
+  "validation_grids": {
+    "degradation_representative_runs": [
+      {"run_id": "B01", "rho_th": 0.7, "varphi": 1.0, "f_min": 0.2},
+      {"run_id": "B02", "rho_th": 0.6, "varphi": 1.0, "f_min": 0.2},
+      {"run_id": "B03", "rho_th": 0.8, "varphi": 1.0, "f_min": 0.2},
+      {"run_id": "B04", "rho_th": 0.7, "varphi": 0.5, "f_min": 0.2},
+      {"run_id": "B05", "rho_th": 0.7, "varphi": 2.0, "f_min": 0.2},
+      {"run_id": "B06", "rho_th": 0.7, "varphi": 1.0, "f_min": 0.1},
+      {"run_id": "B07", "rho_th": 0.7, "varphi": 1.0, "f_min": 0.3}
+    ],
+    "sigma_grid": {
+      "sigma_delay": [0.25, 0.5, 1.0, 2.0],
+      "sigma_res": [0.25, 0.5, 1.0, 2.0]
+    },
+    "objective_weight_checks": [
+      {"run_id": "W01", "upsilon": [1.0, 0.0, 0.0, 0.0], "purpose": "delay-only baseline"},
+      {"run_id": "W02", "upsilon": [1.0, 0.1, 0.1, 0.0], "purpose": "load-balance regularized objective"},
+      {"run_id": "W03", "upsilon": [1.0, 0.1, 0.1, 0.1], "purpose": "default objective with service locality"}
+    ]
+  }
+}

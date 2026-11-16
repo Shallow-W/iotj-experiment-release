@@ -1,0 +1,6 @@
+method,fixed_component,split,component_note,mean_fullflow_delay,load_variance,psi,resource_satisfaction_rate,failed_instances,invalid_action_count,invalid_action_rate,decision_time_ms
+DQN,FPDWGC-tuned,test_slots_151_300,capacity-only global scoring; no PER; no hard mask,12063.605757,0.00875173,0.122905,1.0,0,0,0.0,1.242625
+D3QN,FPDWGC-tuned,test_slots_151_300,state/residual-aware scoring; no PER; no hard mask,11708.044366,0.02667851,0.108939,0.953488,2,2,0.046512,2.887167
+D3QN+PER,FPDWGC-tuned,test_slots_151_300,state/residual-aware scoring plus high-pressure service priority,11646.24636,0.0260883,0.111732,0.953488,2,2,0.046512,2.865959
+D3QN+mask,FPDWGC-tuned,test_slots_151_300,state/residual-aware scoring plus hard feasibility mask,11820.194015,0.02374115,0.28352,1.0,0,0,0.0,2.598042
+MPD3QN,FPDWGC-tuned,test_slots_151_300,FPDWGC affinity plus PER-style service priority and hard feasibility mask,10234.576575,0.02514046,0.24162,1.0,0,0,0.0,1.804042

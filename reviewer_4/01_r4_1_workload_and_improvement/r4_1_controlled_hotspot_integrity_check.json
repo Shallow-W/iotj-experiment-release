@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "slot_count": 300,
+  "request_total_preserved": true,
+  "max_request_total_error": 0.0,
+  "no_lookahead_update": true,
+  "static_dynamic_equal_before_first_update": true,
+  "minimum_resource_satisfaction_rate": 1.0,
+  "first_update_slot": 71,
+  "update_events": 3
+}

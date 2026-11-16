@@ -1,0 +1,601 @@
+slot,minute,regime_id,regime_label,method_id,method,active_event_idx,request_total,long_chain_request_share,mean_fullflow_delay,load_variance,psi,cluster_count,migrated_nodes_at_update,cumulative_migrated_nodes,resource_satisfaction_rate
+1,0,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,0.0,10485.475261,0.03056828,0.4,5,0,0,1.0
+1,0,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,5.0,0.0,10485.475261,0.03056828,0.4,5,0,0,1.0
+2,5,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,0.4,8697.012223,0.01113913,0.1875,5,0,0,1.0
+2,5,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,5.0,0.4,8697.012223,0.01113913,0.1875,5,0,0,1.0
+3,10,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,0.0,7785.38751,0.0185372,0.5,5,0,0,1.0
+3,10,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,4.0,0.0,7785.38751,0.0185372,0.5,5,0,0,1.0
+4,15,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,0.5,6606.41228,0.00567631,0.375,5,0,0,1.0
+4,15,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,4.0,0.5,6606.41228,0.00567631,0.375,5,0,0,1.0
+5,20,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,6.0,0.166667,12046.447177,0.03017077,0.0,5,0,0,1.0
+5,20,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,6.0,0.166667,12046.447177,0.03017077,0.0,5,0,0,1.0
+6,25,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,2.0,0.0,3314.939908,0.00462846,0.0,5,0,0,1.0
+6,25,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,2.0,0.0,3314.939908,0.00462846,0.0,5,0,0,1.0
+7,30,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,6.0,0.166667,12046.447177,0.03017077,0.0,5,0,0,1.0
+7,30,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,6.0,0.166667,12046.447177,0.03017077,0.0,5,0,0,1.0
+8,35,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,0.4,8697.012223,0.01113913,0.1875,5,0,0,1.0
+8,35,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,5.0,0.4,8697.012223,0.01113913,0.1875,5,0,0,1.0
+9,40,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,6.0,0.166667,12046.447177,0.03017077,0.0,5,0,0,1.0
+9,40,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,6.0,0.166667,12046.447177,0.03017077,0.0,5,0,0,1.0
+10,45,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,0.75,6704.594659,0.00448303,0.277778,5,0,0,1.0
+10,45,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,4.0,0.75,6704.594659,0.00448303,0.277778,5,0,0,1.0
+11,50,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,0.25,6966.511767,0.01035324,0.333333,5,0,0,1.0
+11,50,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,4.0,0.25,6966.511767,0.01035324,0.333333,5,0,0,1.0
+12,55,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,6.0,0.0,13603.009145,0.05230328,0.0,5,0,0,1.0
+12,55,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,6.0,0.0,13603.009145,0.05230328,0.0,5,0,0,1.0
+13,60,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,0.0,5405.539851,0.01041404,0.0,5,0,0,1.0
+13,60,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,3.0,0.0,5405.539851,0.01041404,0.0,5,0,0,1.0
+14,65,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,0.333333,4875.911824,0.00472904,0.2,5,0,0,1.0
+14,65,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,3.0,0.333333,4875.911824,0.00472904,0.2,5,0,0,1.0
+15,70,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,0.333333,4875.911824,0.00472904,0.0,5,0,0,1.0
+15,70,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,3.0,0.333333,4875.911824,0.00472904,0.0,5,0,0,1.0
+16,75,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,0.5,6606.41228,0.00567631,0.214286,5,0,0,1.0
+16,75,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,4.0,0.5,6606.41228,0.00567631,0.214286,5,0,0,1.0
+17,80,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,0.333333,4875.911824,0.00472904,0.3,5,0,0,1.0
+17,80,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,3.0,0.333333,4875.911824,0.00472904,0.3,5,0,0,1.0
+18,85,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,6.0,0.166667,12046.447177,0.03017077,0.142857,5,0,0,1.0
+18,85,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,6.0,0.166667,12046.447177,0.03017077,0.142857,5,0,0,1.0
+19,90,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,2.0,0.0,3314.939908,0.00462846,0.0,5,0,0,1.0
+19,90,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,2.0,0.0,3314.939908,0.00462846,0.0,5,0,0,1.0
+20,95,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,0.25,6966.511767,0.01035324,0.25,5,0,0,1.0
+20,95,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,4.0,0.25,6966.511767,0.01035324,0.25,5,0,0,1.0
+21,100,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,0.4,8697.012223,0.01113913,0.277778,5,0,0,1.0
+21,100,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,5.0,0.4,8697.012223,0.01113913,0.277778,5,0,0,1.0
+22,105,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,0.25,6966.511767,0.01035324,0.166667,5,0,0,1.0
+22,105,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,4.0,0.25,6966.511767,0.01035324,0.166667,5,0,0,1.0
+23,110,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,8.0,0.0,22699.148013,0.29493819,0.125,5,0,0,1.0
+23,110,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,8.0,0.0,22699.148013,0.29493819,0.125,5,0,0,1.0
+24,115,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,0.25,6966.511767,0.01035324,0.2,5,0,0,1.0
+24,115,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,4.0,0.25,6966.511767,0.01035324,0.2,5,0,0,1.0
+25,120,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,0.0,10485.475261,0.03056828,0.4,5,0,0,1.0
+25,120,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,5.0,0.0,10485.475261,0.03056828,0.4,5,0,0,1.0
+26,125,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,2.0,0.0,3314.939908,0.00462846,0.0,5,0,0,1.0
+26,125,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,2.0,0.0,3314.939908,0.00462846,0.0,5,0,0,1.0
+27,130,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,0.4,8697.012223,0.01113913,0.1875,5,0,0,1.0
+27,130,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,5.0,0.4,8697.012223,0.01113913,0.1875,5,0,0,1.0
+28,135,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,1.0,1.0,1560.971916,0.00042334,0.5,5,0,0,1.0
+28,135,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,1.0,1.0,1560.971916,0.00042334,0.5,5,0,0,1.0
+29,140,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,0.666667,4804.565663,0.00252772,0.428571,5,0,0,1.0
+29,140,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,3.0,0.666667,4804.565663,0.00252772,0.428571,5,0,0,1.0
+30,145,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,1.0,0.0,1513.093291,0.00115712,0.0,5,0,0,1.0
+30,145,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,1.0,0.0,1513.093291,0.00115712,0.0,5,0,0,1.0
+31,150,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,7.0,0.142857,15163.981061,0.05168572,0.166667,5,0,0,1.0
+31,150,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,7.0,0.142857,15163.981061,0.05168572,0.166667,5,0,0,1.0
+32,155,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,1.0,1.0,1560.971916,0.00042334,0.0,5,0,0,1.0
+32,155,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,1.0,1.0,1560.971916,0.00042334,0.0,5,0,0,1.0
+33,160,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,0.0,5405.539851,0.01041404,1.0,5,0,0,1.0
+33,160,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,3.0,0.0,5405.539851,0.01041404,1.0,5,0,0,1.0
+34,165,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,0.0,5405.539851,0.01041404,0.0,5,0,0,1.0
+34,165,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,3.0,0.0,5405.539851,0.01041404,0.0,5,0,0,1.0
+35,170,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,7.0,0.0,17374.089139,0.10274881,0.142857,5,0,0,1.0
+35,170,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,7.0,0.0,17374.089139,0.10274881,0.142857,5,0,0,1.0
+36,175,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,0.0,5405.539851,0.01041404,0.333333,5,0,0,1.0
+36,175,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,3.0,0.0,5405.539851,0.01041404,0.333333,5,0,0,1.0
+37,180,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,0.0,10485.475261,0.03056828,0.2,5,0,0,1.0
+37,180,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,5.0,0.0,10485.475261,0.03056828,0.2,5,0,0,1.0
+38,185,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,0.333333,4875.911824,0.00472904,0.2,5,0,0,1.0
+38,185,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,3.0,0.333333,4875.911824,0.00472904,0.2,5,0,0,1.0
+39,190,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,2.0,0.0,3314.939908,0.00462846,0.0,5,0,0,1.0
+39,190,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,2.0,0.0,3314.939908,0.00462846,0.0,5,0,0,1.0
+40,195,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,0.0,10485.475261,0.03056828,0.0,5,0,0,1.0
+40,195,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,5.0,0.0,10485.475261,0.03056828,0.0,5,0,0,1.0
+41,200,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,0.0,5405.539851,0.01041404,0.333333,5,0,0,1.0
+41,200,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,3.0,0.0,5405.539851,0.01041404,0.333333,5,0,0,1.0
+42,205,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,9.0,0.111111,24260.119929,0.29333209,0.1,5,0,0,1.0
+42,205,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,9.0,0.111111,24260.119929,0.29333209,0.1,5,0,0,1.0
+43,210,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,0.2,9346.359426,0.01831477,0.357143,5,0,0,1.0
+43,210,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,5.0,0.2,9346.359426,0.01831477,0.357143,5,0,0,1.0
+44,215,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,0.0,5405.539851,0.01041404,0.0,5,0,0,1.0
+44,215,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,3.0,0.0,5405.539851,0.01041404,0.0,5,0,0,1.0
+45,220,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,0.0,5405.539851,0.01041404,0.0,5,0,0,1.0
+45,220,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,3.0,0.0,5405.539851,0.01041404,0.0,5,0,0,1.0
+46,225,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,7.0,0.0,17374.089139,0.10274881,0.142857,5,0,0,1.0
+46,225,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,7.0,0.0,17374.089139,0.10274881,0.142857,5,0,0,1.0
+47,230,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,0.666667,4804.565663,0.00252772,0.428571,5,0,0,1.0
+47,230,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,3.0,0.666667,4804.565663,0.00252772,0.428571,5,0,0,1.0
+48,235,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,0.6,8506.441276,0.00747024,0.388889,5,0,0,1.0
+48,235,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,5.0,0.6,8506.441276,0.00747024,0.388889,5,0,0,1.0
+49,240,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,7.0,0.285714,13776.947633,0.03061993,0.227273,5,0,0,1.0
+49,240,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,7.0,0.285714,13776.947633,0.03061993,0.227273,5,0,0,1.0
+50,245,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,0.5,6606.41228,0.00567631,0.4375,5,0,0,1.0
+50,245,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,4.0,0.5,6606.41228,0.00567631,0.4375,5,0,0,1.0
+51,250,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,0.0,7785.38751,0.0185372,0.0,5,0,0,1.0
+51,250,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,4.0,0.0,7785.38751,0.0185372,0.0,5,0,0,1.0
+52,255,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,0.0,5405.539851,0.01041404,0.0,5,0,0,1.0
+52,255,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,3.0,0.0,5405.539851,0.01041404,0.0,5,0,0,1.0
+53,260,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,0.2,9346.359426,0.01831477,0.0,5,0,0,1.0
+53,260,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,5.0,0.2,9346.359426,0.01831477,0.0,5,0,0,1.0
+54,265,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,0.25,6966.511767,0.01035324,0.0,5,0,0,1.0
+54,265,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,4.0,0.25,6966.511767,0.01035324,0.0,5,0,0,1.0
+55,270,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,6.0,0.0,13603.009145,0.05230328,0.166667,5,0,0,1.0
+55,270,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,6.0,0.0,13603.009145,0.05230328,0.166667,5,0,0,1.0
+56,275,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,8.0,0.25,16894.481517,0.05191484,0.458333,5,0,0,1.0
+56,275,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,8.0,0.25,16894.481517,0.05191484,0.458333,5,0,0,1.0
+57,280,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,8.0,0.0,22699.148013,0.29493819,0.125,5,0,0,1.0
+57,280,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,8.0,0.0,22699.148013,0.29493819,0.125,5,0,0,1.0
+58,285,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,7.0,0.142857,15163.981061,0.05168572,0.333333,5,0,0,1.0
+58,285,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,7.0,0.142857,15163.981061,0.05168572,0.333333,5,0,0,1.0
+59,290,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,0.4,8697.012223,0.01113913,0.0,5,0,0,1.0
+59,290,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,5.0,0.4,8697.012223,0.01113913,0.0,5,0,0,1.0
+60,295,R1,Baseline workload,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,0.2,9346.359426,0.01831477,0.214286,5,0,0,1.0
+60,295,R1,Baseline workload,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,5.0,0.2,9346.359426,0.01831477,0.214286,5,0,0,1.0
+61,300,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,6.0,0.666667,10575.998812,0.01011086,0.2,5,0,0,1.0
+61,300,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,6.0,0.666667,10575.998812,0.01011086,0.2,5,0,0,1.0
+62,305,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,2.0,1.0,3291.472372,0.00169336,0.3,5,0,0,1.0
+62,305,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,2.0,1.0,3291.472372,0.00169336,0.3,5,0,0,1.0
+63,310,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,6.0,1.0,11908.759598,0.01524021,0.076923,5,0,0,1.0
+63,310,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,6.0,1.0,11908.759598,0.01524021,0.076923,5,0,0,1.0
+64,315,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,8.0,1.0,17323.227251,0.02901771,0.0,5,0,0,1.0
+64,315,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,8.0,1.0,17323.227251,0.02901771,0.0,5,0,0,1.0
+65,320,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,7.0,0.857143,13421.852888,0.01542905,0.076923,5,0,0,1.0
+65,320,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,7.0,0.857143,13421.852888,0.01542905,0.076923,5,0,0,1.0
+66,325,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,0.6,8506.441276,0.00747024,0.45,5,0,0,1.0
+66,325,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,5.0,0.6,8506.441276,0.00747024,0.45,5,0,0,1.0
+67,330,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,0.75,6704.594659,0.00448303,0.142857,5,0,0,1.0
+67,330,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,4.0,0.75,6704.594659,0.00448303,0.142857,5,0,0,1.0
+68,335,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,0.75,6704.594659,0.00448303,0.142857,5,0,0,1.0
+68,335,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,4.0,0.75,6704.594659,0.00448303,0.142857,5,0,0,1.0
+69,340,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,2.0,1.0,3291.472372,0.00169336,0.0,5,0,0,1.0
+69,340,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,2.0,1.0,3291.472372,0.00169336,0.0,5,0,0,1.0
+70,345,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,1.0,7261.058905,0.00677343,0.111111,5,0,0,1.0
+70,345,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,0,4.0,1.0,7261.058905,0.00677343,0.111111,5,0,0,1.0
+71,350,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,0.75,6704.594659,0.00448303,0.0,5,0,0,1.0
+71,350,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,4.0,0.75,6530.588694,0.00327173,0.142857,5,12,12,1.0
+72,355,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,0.666667,4804.565663,0.00252772,0.2,5,0,0,1.0
+72,355,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,3.0,0.666667,4586.673049,0.00201682,0.0,5,0,12,1.0
+73,360,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,0.8,8774.152195,0.00728503,0.181818,5,0,0,1.0
+73,360,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,5.0,0.8,8673.782167,0.00506015,0.272727,5,0,12,1.0
+74,365,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,6.0,1.0,11908.759598,0.01524021,0.0,5,0,0,1.0
+74,365,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,6.0,1.0,12261.327352,0.00960309,0.0,5,0,12,1.0
+75,370,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,6.0,0.833333,11013.238272,0.0109337,0.090909,5,0,0,1.0
+75,370,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,6.0,0.833333,11016.253468,0.00738207,0.0,5,0,12,1.0
+76,375,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,7.0,1.0,14503.780955,0.02108786,0.0,5,0,0,1.0
+76,375,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,7.0,1.0,15002.354311,0.01307087,0.0,5,0,12,1.0
+77,380,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,0.75,6704.594659,0.00448303,0.25,5,0,0,1.0
+77,380,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,4.0,0.75,6530.588694,0.00327173,0.125,5,0,12,1.0
+78,385,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,6.0,0.5,10597.041219,0.01277169,0.222222,5,0,0,1.0
+78,385,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,6.0,0.5,9970.149398,0.01166834,0.111111,5,0,12,1.0
+79,390,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,0.5,6606.41228,0.00567631,0.285714,5,0,0,1.0
+79,390,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,4.0,0.5,6165.418366,0.00518593,0.285714,5,0,12,1.0
+80,395,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,1.0,9500.144981,0.01058348,0.0,5,0,0,1.0
+80,395,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,5.0,1.0,9719.578222,0.00666881,0.0,5,0,12,1.0
+81,400,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,2.0,1.0,3291.472372,0.00169336,0.0,5,0,0,1.0
+81,400,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,2.0,1.0,3289.997803,0.00106701,0.0,5,0,12,1.0
+82,405,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,1.0,5191.501368,0.00381005,0.0,5,0,0,1.0
+82,405,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,3.0,1.0,5233.913448,0.00240077,0.0,5,0,12,1.0
+83,410,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,1.0,1.0,1560.971916,0.00042334,0.0,5,0,0,1.0
+83,410,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,1.0,1.0,1545.359987,0.00026675,0.0,5,0,12,1.0
+84,415,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,1.0,7261.058905,0.00677343,0.0,5,0,0,1.0
+84,415,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,4.0,1.0,7377.106921,0.00426804,0.0,5,0,12,1.0
+85,420,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,1.0,5191.501368,0.00381005,0.142857,5,0,0,1.0
+85,420,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,3.0,1.0,5233.913448,0.00240077,0.142857,5,0,12,1.0
+86,425,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,0.75,6704.594659,0.00448303,0.0,5,0,0,1.0
+86,425,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,4.0,0.75,6530.588694,0.00327173,0.142857,5,0,12,1.0
+87,430,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,0.75,6704.594659,0.00448303,0.0,5,0,0,1.0
+87,430,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,4.0,0.75,6530.588694,0.00327173,0.142857,5,0,12,1.0
+88,435,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,10.0,0.8,20638.167159,0.03101808,0.157895,5,0,0,1.0
+88,435,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,10.0,0.8,20818.07966,0.0202406,0.052632,5,0,12,1.0
+89,440,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,1.0,5191.501368,0.00381005,0.142857,5,0,0,1.0
+89,440,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,3.0,1.0,5233.913448,0.00240077,0.142857,5,0,12,1.0
+90,445,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,1.0,7261.058905,0.00677343,0.111111,5,0,0,1.0
+90,445,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,4.0,1.0,7377.106921,0.00426804,0.111111,5,0,12,1.0
+91,450,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,1.0,5191.501368,0.00381005,0.0,5,0,0,1.0
+91,450,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,3.0,1.0,5233.913448,0.00240077,0.0,5,0,12,1.0
+92,455,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,2.0,1.0,3291.472372,0.00169336,0.0,5,0,0,1.0
+92,455,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,2.0,1.0,3289.997803,0.00106701,0.0,5,0,12,1.0
+93,460,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,1.0,5191.501368,0.00381005,0.0,5,0,0,1.0
+93,460,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,3.0,1.0,5233.913448,0.00240077,0.0,5,0,12,1.0
+94,465,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,1.0,1.0,1560.971916,0.00042334,0.0,5,0,0,1.0
+94,465,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,1.0,1.0,1545.359987,0.00026675,0.0,5,0,12,1.0
+95,470,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,1.0,5191.501368,0.00381005,0.0,5,0,0,1.0
+95,470,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,3.0,1.0,5233.913448,0.00240077,0.0,5,0,12,1.0
+96,475,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,1.0,5191.501368,0.00381005,0.0,5,0,0,1.0
+96,475,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,3.0,1.0,5233.913448,0.00240077,0.0,5,0,12,1.0
+97,480,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,6.0,0.666667,10575.998812,0.01011086,0.2,5,0,0,1.0
+97,480,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,6.0,0.666667,10252.527483,0.00806727,0.0,5,0,12,1.0
+98,485,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,1.0,7261.058905,0.00677343,0.166667,5,0,0,1.0
+98,485,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,4.0,1.0,7377.106921,0.00426804,0.166667,5,0,12,1.0
+99,490,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,1.0,9500.144981,0.01058348,0.090909,5,0,0,1.0
+99,490,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,5.0,1.0,9719.578222,0.00666881,0.090909,5,0,12,1.0
+100,495,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,6.0,1.0,11908.759598,0.01524021,0.178571,5,0,0,1.0
+100,495,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,6.0,1.0,12261.327352,0.00960309,0.178571,5,0,12,1.0
+101,500,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,0.8,8774.152195,0.00728503,0.2,5,0,0,1.0
+101,500,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,5.0,0.8,8673.782167,0.00506015,0.1,5,0,12,1.0
+102,505,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,1.0,0.0,1513.093291,0.00115712,0.0,5,0,0,1.0
+102,505,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,1.0,0.0,1296.675246,0.00111406,1.0,5,0,12,1.0
+103,510,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,2.0,1.0,3291.472372,0.00169336,0.2,5,0,0,1.0
+103,510,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,2.0,1.0,3289.997803,0.00106701,0.2,5,0,12,1.0
+104,515,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,6.0,0.833333,11013.238272,0.0109337,0.090909,5,0,0,1.0
+104,515,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,6.0,0.833333,11016.253468,0.00738207,0.0,5,0,12,1.0
+105,520,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,0.75,6704.594659,0.00448303,0.0,5,0,0,1.0
+105,520,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,4.0,0.75,6530.588694,0.00327173,0.142857,5,0,12,1.0
+106,525,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,6.0,0.833333,11013.238272,0.0109337,0.208333,5,0,0,1.0
+106,525,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,6.0,0.833333,11016.253468,0.00738207,0.125,5,0,12,1.0
+107,530,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,0.75,6704.594659,0.00448303,0.142857,5,0,0,1.0
+107,530,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,4.0,0.75,6530.588694,0.00327173,0.0,5,0,12,1.0
+108,535,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,1.0,5191.501368,0.00381005,0.0,5,0,0,1.0
+108,535,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,3.0,1.0,5233.913448,0.00240077,0.0,5,0,12,1.0
+109,540,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,1.0,1.0,1560.971916,0.00042334,0.0,5,0,0,1.0
+109,540,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,1.0,1.0,1545.359987,0.00026675,0.0,5,0,12,1.0
+110,545,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,0.5,6606.41228,0.00567631,0.333333,5,0,0,1.0
+110,545,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,4.0,0.5,6165.418366,0.00518593,0.0,5,0,12,1.0
+111,550,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,11.0,0.727273,22728.767102,0.03548962,0.125,5,0,0,1.0
+111,550,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,11.0,0.727273,22678.895048,0.02514733,0.175,5,0,12,1.0
+112,555,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,0.666667,4804.565663,0.00252772,0.2,5,0,0,1.0
+112,555,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,3.0,0.666667,4586.673049,0.00201682,0.0,5,0,12,1.0
+113,560,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,1.0,7261.058905,0.00677343,0.111111,5,0,0,1.0
+113,560,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,4.0,1.0,7377.106921,0.00426804,0.111111,5,0,12,1.0
+114,565,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,0.75,6704.594659,0.00448303,0.25,5,0,0,1.0
+114,565,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,4.0,0.75,6530.588694,0.00327173,0.125,5,0,12,1.0
+115,570,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,1.0,5191.501368,0.00381005,0.214286,5,0,0,1.0
+115,570,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,3.0,1.0,5233.913448,0.00240077,0.214286,5,0,12,1.0
+116,575,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,6.0,0.833333,11013.238272,0.0109337,0.0,5,0,0,1.0
+116,575,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,6.0,0.833333,11016.253468,0.00738207,0.090909,5,0,12,1.0
+117,580,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,0.8,8774.152195,0.00728503,0.111111,5,0,0,1.0
+117,580,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,5.0,0.8,8673.782167,0.00506015,0.0,5,0,12,1.0
+118,585,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,7.0,1.0,14503.780955,0.02108786,0.125,5,0,0,1.0
+118,585,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,7.0,1.0,15002.354311,0.01307087,0.125,5,0,12,1.0
+119,590,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,0.75,6704.594659,0.00448303,0.142857,5,0,0,1.0
+119,590,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,4.0,0.75,6530.588694,0.00327173,0.0,5,0,12,1.0
+120,595,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,2.0,1.0,3291.472372,0.00169336,0.2,5,0,0,1.0
+120,595,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,2.0,1.0,3289.997803,0.00106701,0.2,5,0,12,1.0
+121,600,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,6.0,1.0,11908.759598,0.01524021,0.076923,5,0,0,1.0
+121,600,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,6.0,1.0,12261.327352,0.00960309,0.076923,5,0,12,1.0
+122,605,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,6.0,1.0,11908.759598,0.01524021,0.0,5,0,0,1.0
+122,605,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,6.0,1.0,12261.327352,0.00960309,0.0,5,0,12,1.0
+123,610,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,0.333333,4875.911824,0.00472904,0.5,5,0,0,1.0
+123,610,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,3.0,0.333333,4420.78055,0.00457095,0.5,5,0,12,1.0
+124,615,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,9.0,0.888889,18836.320542,0.02886078,0.138889,5,0,0,1.0
+124,615,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,9.0,0.888889,19239.334344,0.01754887,0.083333,5,0,12,1.0
+125,620,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,1.0,5191.501368,0.00381005,0.0,5,0,0,1.0
+125,620,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,3.0,1.0,5233.913448,0.00240077,0.0,5,0,12,1.0
+126,625,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,1.0,5191.501368,0.00381005,0.0,5,0,0,1.0
+126,625,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,3.0,1.0,5233.913448,0.00240077,0.0,5,0,12,1.0
+127,630,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,1.0,9500.144981,0.01058348,0.0,5,0,0,1.0
+127,630,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,5.0,1.0,9719.578222,0.00666881,0.0,5,0,12,1.0
+128,635,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,9.0,0.888889,18836.320542,0.02886078,0.138889,5,0,0,1.0
+128,635,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,9.0,0.888889,19239.334344,0.01754887,0.083333,5,0,12,1.0
+129,640,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,1.0,7261.058905,0.00677343,0.3,5,0,0,1.0
+129,640,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,4.0,1.0,7377.106921,0.00426804,0.3,5,0,12,1.0
+130,645,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,7.0,1.0,14503.780955,0.02108786,0.1,5,0,0,1.0
+130,645,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,7.0,1.0,15002.354311,0.01307087,0.1,5,0,12,1.0
+131,650,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,10.0,0.8,20638.167159,0.03101808,0.2,5,0,0,1.0
+131,650,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,10.0,0.8,20818.07966,0.0202406,0.1,5,0,12,1.0
+132,655,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,6.0,0.833333,11013.238272,0.0109337,0.307692,5,0,0,1.0
+132,655,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,6.0,0.833333,11016.253468,0.00738207,0.230769,5,0,12,1.0
+133,660,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,8.0,1.0,17323.227251,0.02901771,0.058824,5,0,0,1.0
+133,660,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,8.0,1.0,17942.659098,0.01707215,0.058824,5,0,12,1.0
+134,665,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,1.0,9500.144981,0.01058348,0.269231,5,0,0,1.0
+134,665,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,5.0,1.0,9719.578222,0.00666881,0.269231,5,0,12,1.0
+135,670,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,0.75,6704.594659,0.00448303,0.25,5,0,0,1.0
+135,670,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,4.0,0.75,6530.588694,0.00327173,0.125,5,0,12,1.0
+136,675,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,0.333333,4875.911824,0.00472904,0.25,5,0,0,1.0
+136,675,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,3.0,0.333333,4420.78055,0.00457095,0.25,5,0,12,1.0
+137,680,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,1.0,9500.144981,0.01058348,0.0,5,0,0,1.0
+137,680,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,5.0,1.0,9719.578222,0.00666881,0.0,5,0,12,1.0
+138,685,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,0.5,6606.41228,0.00567631,0.357143,5,0,0,1.0
+138,685,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,4.0,0.5,6165.418366,0.00518593,0.357143,5,0,12,1.0
+139,690,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,6.0,0.833333,11013.238272,0.0109337,0.192308,5,0,0,1.0
+139,690,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,6.0,0.833333,11016.253468,0.00738207,0.269231,5,0,12,1.0
+140,695,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,1.0,5191.501368,0.00381005,0.214286,5,0,0,1.0
+140,695,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,3.0,1.0,5233.913448,0.00240077,0.214286,5,0,12,1.0
+141,700,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,7.0,1.0,14503.780955,0.02108786,0.205882,5,0,0,1.0
+141,700,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,7.0,1.0,15002.354311,0.01307087,0.205882,5,0,12,1.0
+142,705,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,2.0,1.0,3291.472372,0.00169336,0.3,5,0,0,1.0
+142,705,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,2.0,1.0,3289.997803,0.00106701,0.3,5,0,12,1.0
+143,710,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,1.0,7261.058905,0.00677343,0.166667,5,0,0,1.0
+143,710,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,4.0,1.0,7377.106921,0.00426804,0.166667,5,0,12,1.0
+144,715,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,10.0,1.0,23870.959275,0.0585133,0.136364,5,0,0,1.0
+144,715,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,10.0,1.0,24443.135388,0.02698836,0.136364,5,0,12,1.0
+145,720,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,1.0,9500.144981,0.01058348,0.0,5,0,0,1.0
+145,720,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,5.0,1.0,9719.578222,0.00666881,0.0,5,0,12,1.0
+146,725,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,2.0,1.0,3291.472372,0.00169336,0.3,5,0,0,1.0
+146,725,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,2.0,1.0,3289.997803,0.00106701,0.3,5,0,12,1.0
+147,730,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,0.8,8774.152195,0.00728503,0.111111,5,0,0,1.0
+147,730,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,5.0,0.8,8673.782167,0.00506015,0.0,5,0,12,1.0
+148,735,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,0.75,6704.594659,0.00448303,0.142857,5,0,0,1.0
+148,735,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,4.0,0.75,6530.588694,0.00327173,0.0,5,0,12,1.0
+149,740,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,2.0,1.0,3291.472372,0.00169336,0.0,5,0,0,1.0
+149,740,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,2.0,1.0,3289.997803,0.00106701,0.0,5,0,12,1.0
+150,745,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,6.0,0.833333,11013.238272,0.0109337,0.090909,5,0,0,1.0
+150,745,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,6.0,0.833333,11016.253468,0.00738207,0.0,5,0,12,1.0
+151,750,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,6.0,1.0,11908.759598,0.01524021,0.0,5,0,0,1.0
+151,750,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,6.0,1.0,12261.327352,0.00960309,0.0,5,0,12,1.0
+152,755,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,0.8,8774.152195,0.00728503,0.363636,5,0,0,1.0
+152,755,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,5.0,0.8,8673.782167,0.00506015,0.272727,5,0,12,1.0
+153,760,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,7.0,1.0,14503.780955,0.02108786,0.066667,5,0,0,1.0
+153,760,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,7.0,1.0,15002.354311,0.01307087,0.066667,5,0,12,1.0
+154,765,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,7.0,0.714286,12815.084889,0.01359816,0.269231,5,0,0,1.0
+154,765,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,7.0,0.714286,12594.998785,0.01031034,0.115385,5,0,12,1.0
+155,770,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,1.0,9500.144981,0.01058348,0.208333,5,0,0,1.0
+155,770,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,5.0,1.0,9719.578222,0.00666881,0.208333,5,0,12,1.0
+156,775,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,0.666667,4804.565663,0.00252772,0.25,5,0,0,1.0
+156,775,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,3.0,0.666667,4586.673049,0.00201682,0.416667,5,0,12,1.0
+157,780,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,8.0,0.75,15223.699505,0.01793213,0.166667,5,0,0,1.0
+157,780,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,8.0,0.75,15136.747915,0.01308692,0.166667,5,0,12,1.0
+158,785,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,1.0,7261.058905,0.00677343,0.0,5,0,0,1.0
+158,785,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,4.0,1.0,7377.106921,0.00426804,0.0,5,0,12,1.0
+159,790,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,12.0,0.833333,27185.899183,0.05963569,0.166667,5,0,0,1.0
+159,790,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,12.0,0.833333,27318.55595,0.02983456,0.083333,5,0,12,1.0
+160,795,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,0.0,5405.539851,0.01041404,1.0,5,0,0,1.0
+160,795,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,1,3.0,0.0,4736.23595,0.01002652,0.0,5,0,12,1.0
+161,800,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,0.333333,4875.911824,0.00472904,0.25,5,0,0,1.0
+161,800,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,2,3.0,0.333333,4346.090145,0.00444401,0.25,5,4,16,1.0
+162,805,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,6.0,0.833333,11013.238272,0.0109337,0.0,5,0,0,1.0
+162,805,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,2,6.0,0.833333,10327.175644,0.01035249,0.090909,5,0,16,1.0
+163,810,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,9.0,0.777778,17818.720862,0.0234474,0.205882,5,0,0,1.0
+163,810,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,2,9.0,0.777778,17169.498928,0.02196502,0.088235,5,0,16,1.0
+164,815,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,1.0,5191.501368,0.00381005,0.214286,5,0,0,1.0
+164,815,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,2,3.0,1.0,4684.282085,0.00355594,0.214286,5,0,16,1.0
+165,820,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,6.0,1.0,11908.759598,0.01524021,0.115385,5,0,0,1.0
+165,820,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,2,6.0,1.0,11441.470938,0.01422378,0.115385,5,0,16,1.0
+166,825,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,1.0,7261.058905,0.00677343,0.0,5,0,0,1.0
+166,825,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,2,4.0,1.0,6706.355395,0.00632168,0.0,5,0,16,1.0
+167,830,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,6.0,1.0,11908.759598,0.01524021,0.115385,5,0,0,1.0
+167,830,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,2,6.0,1.0,11441.470938,0.01422378,0.115385,5,0,16,1.0
+168,835,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,6.0,0.833333,11013.238272,0.0109337,0.090909,5,0,0,1.0
+168,835,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,2,6.0,0.833333,10327.175644,0.01035249,0.0,5,0,16,1.0
+169,840,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,1.0,7261.058905,0.00677343,0.166667,5,0,0,1.0
+169,840,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,2,4.0,1.0,6706.355395,0.00632168,0.166667,5,0,16,1.0
+170,845,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,1.0,9500.144981,0.01058348,0.0,5,0,0,1.0
+170,845,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,2,5.0,1.0,8958.751679,0.00987762,0.0,5,0,16,1.0
+171,850,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,2.0,0.0,3314.939908,0.00462846,0.0,5,0,0,1.0
+171,850,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,2,2.0,0.0,3014.985757,0.00427674,1.0,5,0,16,1.0
+172,855,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,2.0,1.0,3291.472372,0.00169336,0.3,5,0,0,1.0
+172,855,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,2,2.0,1.0,2892.531749,0.00158042,0.3,5,0,16,1.0
+173,860,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,0.8,8774.152195,0.00728503,0.363636,5,0,0,1.0
+173,860,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,2,5.0,0.8,8074.779359,0.00691411,0.272727,5,0,16,1.0
+174,865,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,2.0,1.0,3291.472372,0.00169336,0.0,5,0,0,1.0
+174,865,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,2,2.0,1.0,2892.531749,0.00158042,0.0,5,0,16,1.0
+175,870,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,8.0,0.75,15223.699505,0.01793213,0.25,5,0,0,1.0
+175,870,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,2,8.0,0.75,14456.456695,0.0170638,0.125,5,0,16,1.0
+176,875,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,2.0,0.5,3074.065207,0.00141908,0.333333,5,0,0,1.0
+176,875,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,2,2.0,0.5,2699.528352,0.00134263,0.0,5,0,16,1.0
+177,880,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,1.0,9500.144981,0.01058348,0.0,5,0,0,1.0
+177,880,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,2,5.0,1.0,8958.751679,0.00987762,0.0,5,0,16,1.0
+178,885,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,2.0,1.0,3291.472372,0.00169336,0.0,5,0,0,1.0
+178,885,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,2,2.0,1.0,2892.531749,0.00158042,0.0,5,0,16,1.0
+179,890,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,8.0,0.875,16016.874245,0.02111052,0.15625,5,0,0,1.0
+179,890,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,2,8.0,0.875,15522.937135,0.01959987,0.09375,5,0,16,1.0
+180,895,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,6.0,0.666667,10575.998812,0.01011086,0.227273,5,0,0,1.0
+180,895,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,2,6.0,0.666667,9721.341152,0.00963199,0.227273,5,0,16,1.0
+181,900,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,6.0,0.833333,11013.238272,0.0109337,0.0,5,0,0,1.0
+181,900,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,6.0,0.833333,10312.326024,0.00962498,0.090909,5,3,19,1.0
+182,905,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,1.0,5191.501368,0.00381005,0.214286,5,0,0,1.0
+182,905,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,3.0,1.0,4748.807095,0.00329404,0.214286,5,0,19,1.0
+183,910,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,1.0,7261.058905,0.00677343,0.111111,5,0,0,1.0
+183,910,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,4.0,1.0,6743.43222,0.00585608,0.111111,5,0,19,1.0
+184,915,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,6.0,0.833333,11013.238272,0.0109337,0.090909,5,0,0,1.0
+184,915,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,6.0,0.833333,10312.326024,0.00962498,0.0,5,0,19,1.0
+185,920,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,1.0,7261.058905,0.00677343,0.166667,5,0,0,1.0
+185,920,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,4.0,1.0,6743.43222,0.00585608,0.166667,5,0,19,1.0
+186,925,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,1.0,9500.144981,0.01058348,0.166667,5,0,0,1.0
+186,925,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,5.0,1.0,8943.902059,0.00915012,0.166667,5,0,19,1.0
+187,930,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,7.0,0.857143,13421.852888,0.01542905,0.233333,5,0,0,1.0
+187,930,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,7.0,0.857143,12718.640576,0.01353346,0.166667,5,0,19,1.0
+188,935,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,1.0,9500.144981,0.01058348,0.0,5,0,0,1.0
+188,935,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,5.0,1.0,8943.902059,0.00915012,0.0,5,0,19,1.0
+189,940,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,12.0,0.666667,25108.614761,0.04229667,0.2,5,0,0,1.0
+189,940,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,12.0,0.666667,23949.121736,0.03713959,0.0,5,0,19,1.0
+190,945,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,1.0,5191.501368,0.00381005,0.0,5,0,0,1.0
+190,945,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,3.0,1.0,4748.807095,0.00329404,0.0,5,0,19,1.0
+191,950,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,2.0,0.5,3074.065207,0.00141908,0.0,5,0,0,1.0
+191,950,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,2.0,0.5,2745.514949,0.00131368,0.333333,5,0,19,1.0
+192,955,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,2.0,1.0,3291.472372,0.00169336,0.0,5,0,0,1.0
+192,955,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,2.0,1.0,2960.026683,0.00146402,0.0,5,0,19,1.0
+193,960,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,9.0,1.0,20415.44907,0.04044459,0.078947,5,0,0,1.0
+193,960,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,9.0,1.0,19908.761815,0.03172735,0.078947,5,0,19,1.0
+194,965,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,0.666667,4804.565663,0.00252772,0.2,5,0,0,1.0
+194,965,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,3.0,0.666667,4328.450647,0.0022916,0.0,5,0,19,1.0
+195,970,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,1.0,7261.058905,0.00677343,0.111111,5,0,0,1.0
+195,970,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,4.0,1.0,6743.43222,0.00585608,0.111111,5,0,19,1.0
+196,975,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,2.0,1.0,3291.472372,0.00169336,0.0,5,0,0,1.0
+196,975,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,2.0,1.0,2960.026683,0.00146402,0.0,5,0,19,1.0
+197,980,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,1.0,9500.144981,0.01058348,0.208333,5,0,0,1.0
+197,980,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,5.0,1.0,8943.902059,0.00915012,0.208333,5,0,19,1.0
+198,985,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,1.0,7261.058905,0.00677343,0.166667,5,0,0,1.0
+198,985,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,4.0,1.0,6743.43222,0.00585608,0.166667,5,0,19,1.0
+199,990,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,1.0,5191.501368,0.00381005,0.3125,5,0,0,1.0
+199,990,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,3.0,1.0,4748.807095,0.00329404,0.3125,5,0,19,1.0
+200,995,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,1.0,1.0,1560.971916,0.00042334,0.0,5,0,0,1.0
+200,995,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,1.0,1.0,1377.090985,0.000366,0.0,5,0,19,1.0
+201,1000,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,0.8,8774.152195,0.00728503,0.318182,5,0,0,1.0
+201,1000,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,5.0,0.8,8111.856185,0.00644851,0.227273,5,0,19,1.0
+202,1005,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,2.0,0.5,3074.065207,0.00141908,0.0,5,0,0,1.0
+202,1005,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,2.0,0.5,2745.514949,0.00131368,0.333333,5,0,19,1.0
+203,1010,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,6.0,1.0,11908.759598,0.01524021,0.115385,5,0,0,1.0
+203,1010,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,6.0,1.0,11350.216612,0.01317617,0.115385,5,0,19,1.0
+204,1015,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,2.0,1.0,3291.472372,0.00169336,0.0,5,0,0,1.0
+204,1015,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,2.0,1.0,2960.026683,0.00146402,0.0,5,0,19,1.0
+205,1020,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,0.666667,4804.565663,0.00252772,0.0,5,0,0,1.0
+205,1020,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,3.0,0.666667,4328.450647,0.0022916,0.2,5,0,19,1.0
+206,1025,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,1.0,7261.058905,0.00677343,0.0,5,0,0,1.0
+206,1025,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,4.0,1.0,6743.43222,0.00585608,0.0,5,0,19,1.0
+207,1030,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,1.0,7261.058905,0.00677343,0.0,5,0,0,1.0
+207,1030,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,4.0,1.0,6743.43222,0.00585608,0.0,5,0,19,1.0
+208,1035,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,6.0,1.0,11908.759598,0.01524021,0.076923,5,0,0,1.0
+208,1035,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,6.0,1.0,11350.216612,0.01317617,0.076923,5,0,19,1.0
+209,1040,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,1.0,9500.144981,0.01058348,0.090909,5,0,0,1.0
+209,1040,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,5.0,1.0,8943.902059,0.00915012,0.090909,5,0,19,1.0
+210,1045,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,0.75,6704.594659,0.00448303,0.125,5,0,0,1.0
+210,1045,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,4.0,0.75,6117.231059,0.00400405,0.25,5,0,19,1.0
+211,1050,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,0.333333,4875.911824,0.00472904,0.25,5,0,0,1.0
+211,1050,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,3.0,0.333333,4392.076742,0.00441485,0.25,5,0,19,1.0
+212,1055,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,6.0,1.0,11908.759598,0.01524021,0.178571,5,0,0,1.0
+212,1055,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,6.0,1.0,11350.216612,0.01317617,0.178571,5,0,19,1.0
+213,1060,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,1.0,9500.144981,0.01058348,0.090909,5,0,0,1.0
+213,1060,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,5.0,1.0,8943.902059,0.00915012,0.090909,5,0,19,1.0
+214,1065,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,0.8,8774.152195,0.00728503,0.111111,5,0,0,1.0
+214,1065,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,5.0,0.8,8111.856185,0.00644851,0.0,5,0,19,1.0
+215,1070,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,6.0,0.833333,11013.238272,0.0109337,0.0,5,0,0,1.0
+215,1070,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,6.0,0.833333,10312.326024,0.00962498,0.090909,5,0,19,1.0
+216,1075,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,9.0,0.888889,18836.320542,0.02886078,0.210526,5,0,0,1.0
+216,1075,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,9.0,0.888889,18175.019953,0.0240352,0.157895,5,0,19,1.0
+217,1080,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,6.0,0.833333,11013.238272,0.0109337,0.208333,5,0,0,1.0
+217,1080,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,6.0,0.833333,10312.326024,0.00962498,0.125,5,0,19,1.0
+218,1085,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,0.75,6704.594659,0.00448303,0.25,5,0,0,1.0
+218,1085,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,4.0,0.75,6117.231059,0.00400405,0.125,5,0,19,1.0
+219,1090,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,1.0,9500.144981,0.01058348,0.136364,5,0,0,1.0
+219,1090,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,5.0,1.0,8943.902059,0.00915012,0.136364,5,0,19,1.0
+220,1095,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,1.0,7261.058905,0.00677343,0.0,5,0,0,1.0
+220,1095,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,4.0,1.0,6743.43222,0.00585608,0.0,5,0,19,1.0
+221,1100,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,2.0,0.5,3074.065207,0.00141908,0.0,5,0,0,1.0
+221,1100,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,2.0,0.5,2745.514949,0.00131368,0.333333,5,0,19,1.0
+222,1105,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,6.0,1.0,11908.759598,0.01524021,0.142857,5,0,0,1.0
+222,1105,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,6.0,1.0,11350.216612,0.01317617,0.142857,5,0,19,1.0
+223,1110,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,0.8,8774.152195,0.00728503,0.111111,5,0,0,1.0
+223,1110,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,5.0,0.8,8111.856185,0.00644851,0.0,5,0,19,1.0
+224,1115,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,1.0,5191.501368,0.00381005,0.214286,5,0,0,1.0
+224,1115,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,3.0,1.0,4748.807095,0.00329404,0.214286,5,0,19,1.0
+225,1120,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,0.75,6704.594659,0.00448303,0.142857,5,0,0,1.0
+225,1120,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,4.0,0.75,6117.231059,0.00400405,0.0,5,0,19,1.0
+226,1125,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,0.666667,4804.565663,0.00252772,0.5,5,0,0,1.0
+226,1125,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,3.0,0.666667,4328.450647,0.0022916,0.357143,5,0,19,1.0
+227,1130,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,0.75,6704.594659,0.00448303,0.142857,5,0,0,1.0
+227,1130,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,4.0,0.75,6117.231059,0.00400405,0.0,5,0,19,1.0
+228,1135,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,2.0,1.0,3291.472372,0.00169336,0.3,5,0,0,1.0
+228,1135,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,2.0,1.0,2960.026683,0.00146402,0.3,5,0,19,1.0
+229,1140,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,2.0,1.0,3291.472372,0.00169336,0.3,5,0,0,1.0
+229,1140,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,2.0,1.0,2960.026683,0.00146402,0.3,5,0,19,1.0
+230,1145,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,1.0,1.0,1560.971916,0.00042334,0.0,5,0,0,1.0
+230,1145,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,1.0,1.0,1377.090985,0.000366,0.0,5,0,19,1.0
+231,1150,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,2.0,1.0,3291.472372,0.00169336,0.0,5,0,0,1.0
+231,1150,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,2.0,1.0,2960.026683,0.00146402,0.0,5,0,19,1.0
+232,1155,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,8.0,1.0,17323.227251,0.02901771,0.0,5,0,0,1.0
+232,1155,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,8.0,1.0,16806.595989,0.02391798,0.0,5,0,19,1.0
+233,1160,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,2.0,0.5,3074.065207,0.00141908,0.0,5,0,0,1.0
+233,1160,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,2.0,0.5,2745.514949,0.00131368,0.333333,5,0,19,1.0
+234,1165,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,1.0,9500.144981,0.01058348,0.136364,5,0,0,1.0
+234,1165,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,5.0,1.0,8943.902059,0.00915012,0.136364,5,0,19,1.0
+235,1170,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,7.0,0.857143,13421.852888,0.01542905,0.076923,5,0,0,1.0
+235,1170,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,7.0,0.857143,12718.640576,0.01353346,0.0,5,0,19,1.0
+236,1175,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,6.0,1.0,11908.759598,0.01524021,0.076923,5,0,0,1.0
+236,1175,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,6.0,1.0,11350.216612,0.01317617,0.076923,5,0,19,1.0
+237,1180,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,2.0,1.0,3291.472372,0.00169336,0.0,5,0,0,1.0
+237,1180,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,2.0,1.0,2960.026683,0.00146402,0.0,5,0,19,1.0
+238,1185,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,8.0,0.625,14905.684832,0.01857684,0.230769,5,0,0,1.0
+238,1185,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,8.0,0.625,13883.587439,0.01695102,0.0,5,0,19,1.0
+239,1190,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,0.75,6704.594659,0.00448303,0.142857,5,0,0,1.0
+239,1190,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,4.0,0.75,6117.231059,0.00400405,0.0,5,0,19,1.0
+240,1195,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,1.0,7261.058905,0.00677343,0.111111,5,0,0,1.0
+240,1195,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,4.0,1.0,6743.43222,0.00585608,0.111111,5,0,19,1.0
+241,1200,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,2.0,1.0,3291.472372,0.00169336,0.0,5,0,0,1.0
+241,1200,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,2.0,1.0,2960.026683,0.00146402,0.0,5,0,19,1.0
+242,1205,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,1.0,7261.058905,0.00677343,0.0,5,0,0,1.0
+242,1205,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,4.0,1.0,6743.43222,0.00585608,0.0,5,0,19,1.0
+243,1210,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,7.0,1.0,14503.780955,0.02108786,0.1,5,0,0,1.0
+243,1210,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,7.0,1.0,13963.47778,0.01795395,0.1,5,0,19,1.0
+244,1215,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,1.0,9500.144981,0.01058348,0.136364,5,0,0,1.0
+244,1215,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,5.0,1.0,8943.902059,0.00915012,0.136364,5,0,19,1.0
+245,1220,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,7.0,1.0,14503.780955,0.02108786,0.0,5,0,0,1.0
+245,1220,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,7.0,1.0,13963.47778,0.01795395,0.0,5,0,19,1.0
+246,1225,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,0.75,6704.594659,0.00448303,0.125,5,0,0,1.0
+246,1225,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,4.0,0.75,6117.231059,0.00400405,0.25,5,0,19,1.0
+247,1230,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,8.0,0.875,16016.874245,0.02111052,0.15625,5,0,0,1.0
+247,1230,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,8.0,0.875,15331.901744,0.01819345,0.09375,5,0,19,1.0
+248,1235,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,9.0,0.888889,18836.320542,0.02886078,0.058824,5,0,0,1.0
+248,1235,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,9.0,0.888889,18175.019953,0.0240352,0.0,5,0,19,1.0
+249,1240,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,6.0,1.0,11908.759598,0.01524021,0.0,5,0,0,1.0
+249,1240,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,6.0,1.0,11350.216612,0.01317617,0.0,5,0,19,1.0
+250,1245,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,0.666667,4804.565663,0.00252772,0.2,5,0,0,1.0
+250,1245,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,3.0,0.666667,4328.450647,0.0022916,0.0,5,0,19,1.0
+251,1250,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,2.0,1.0,3291.472372,0.00169336,0.0,5,0,0,1.0
+251,1250,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,2.0,1.0,2960.026683,0.00146402,0.0,5,0,19,1.0
+252,1255,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,1.0,5191.501368,0.00381005,0.214286,5,0,0,1.0
+252,1255,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,3.0,1.0,4748.807095,0.00329404,0.214286,5,0,19,1.0
+253,1260,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,6.0,1.0,11908.759598,0.01524021,0.115385,5,0,0,1.0
+253,1260,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,6.0,1.0,11350.216612,0.01317617,0.115385,5,0,19,1.0
+254,1265,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,1.0,0.0,1513.093291,0.00115712,1.0,5,0,0,1.0
+254,1265,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,1.0,0.0,1368.423964,0.00106919,0.0,5,0,19,1.0
+255,1270,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,1.0,7261.058905,0.00677343,0.111111,5,0,0,1.0
+255,1270,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,4.0,1.0,6743.43222,0.00585608,0.111111,5,0,19,1.0
+256,1275,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,7.0,0.714286,12815.084889,0.01359816,0.230769,5,0,0,1.0
+256,1275,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,7.0,0.714286,11958.887817,0.01222528,0.076923,5,0,19,1.0
+257,1280,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,6.0,0.833333,11013.238272,0.0109337,0.166667,5,0,0,1.0
+257,1280,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,6.0,0.833333,10312.326024,0.00962498,0.083333,5,0,19,1.0
+258,1285,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,0.75,6704.594659,0.00448303,0.277778,5,0,0,1.0
+258,1285,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,4.0,0.75,6117.231059,0.00400405,0.388889,5,0,19,1.0
+259,1290,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,7.0,0.857143,13421.852888,0.01542905,0.323529,5,0,0,1.0
+259,1290,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,7.0,0.857143,12718.640576,0.01353346,0.264706,5,0,19,1.0
+260,1295,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,1.0,5191.501368,0.00381005,0.0,5,0,0,1.0
+260,1295,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,3.0,1.0,4748.807095,0.00329404,0.0,5,0,19,1.0
+261,1300,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,1.0,9500.144981,0.01058348,0.0,5,0,0,1.0
+261,1300,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,5.0,1.0,8943.902059,0.00915012,0.0,5,0,19,1.0
+262,1305,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,1.0,9500.144981,0.01058348,0.090909,5,0,0,1.0
+262,1305,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,5.0,1.0,8943.902059,0.00915012,0.090909,5,0,19,1.0
+263,1310,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,0.75,6704.594659,0.00448303,0.3125,5,0,0,1.0
+263,1310,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,4.0,0.75,6117.231059,0.00400405,0.1875,5,0,19,1.0
+264,1315,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,0.75,6704.594659,0.00448303,0.142857,5,0,0,1.0
+264,1315,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,4.0,0.75,6117.231059,0.00400405,0.0,5,0,19,1.0
+265,1320,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,9.0,0.888889,18836.320542,0.02886078,0.184211,5,0,0,1.0
+265,1320,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,9.0,0.888889,18175.019953,0.0240352,0.131579,5,0,19,1.0
+266,1325,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,0.8,8774.152195,0.00728503,0.1,5,0,0,1.0
+266,1325,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,5.0,0.8,8111.856185,0.00644851,0.2,5,0,19,1.0
+267,1330,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,1.0,5191.501368,0.00381005,0.0,5,0,0,1.0
+267,1330,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,3.0,1.0,4748.807095,0.00329404,0.0,5,0,19,1.0
+268,1335,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,1.0,7261.058905,0.00677343,0.111111,5,0,0,1.0
+268,1335,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,4.0,1.0,6743.43222,0.00585608,0.111111,5,0,19,1.0
+269,1340,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,2.0,1.0,3291.472372,0.00169336,0.3,5,0,0,1.0
+269,1340,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,2.0,1.0,2960.026683,0.00146402,0.3,5,0,19,1.0
+270,1345,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,12.0,0.916667,29394.509708,0.09050974,0.203704,5,0,0,1.0
+270,1345,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,12.0,0.916667,28599.4497,0.05860114,0.240741,5,0,19,1.0
+271,1350,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,1.0,7261.058905,0.00677343,0.0,5,0,0,1.0
+271,1350,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,4.0,1.0,6743.43222,0.00585608,0.0,5,0,19,1.0
+272,1355,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,2.0,1.0,3291.472372,0.00169336,0.0,5,0,0,1.0
+272,1355,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,2.0,1.0,2960.026683,0.00146402,0.0,5,0,19,1.0
+273,1360,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,7.0,0.714286,12815.084889,0.01359816,0.166667,5,0,0,1.0
+273,1360,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,7.0,0.714286,11958.887817,0.01222528,0.0,5,0,19,1.0
+274,1365,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,2.0,0.5,3074.065207,0.00141908,0.0,5,0,0,1.0
+274,1365,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,2.0,0.5,2745.514949,0.00131368,0.333333,5,0,19,1.0
+275,1370,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,7.0,1.0,14503.780955,0.02108786,0.066667,5,0,0,1.0
+275,1370,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,7.0,1.0,13963.47778,0.01795395,0.066667,5,0,19,1.0
+276,1375,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,0.6,8506.441276,0.00747024,0.333333,5,0,0,1.0
+276,1375,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,5.0,0.6,7763.792852,0.00684176,0.111111,5,0,19,1.0
+277,1380,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,1.0,9500.144981,0.01058348,0.090909,5,0,0,1.0
+277,1380,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,5.0,1.0,8943.902059,0.00915012,0.090909,5,0,19,1.0
+278,1385,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,8.0,0.875,16016.874245,0.02111052,0.0625,5,0,0,1.0
+278,1385,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,8.0,0.875,15331.901744,0.01819345,0.125,5,0,19,1.0
+279,1390,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,0.6,8506.441276,0.00747024,0.125,5,0,0,1.0
+279,1390,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,5.0,0.6,7763.792852,0.00684176,0.125,5,0,19,1.0
+280,1395,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,8.0,0.875,16016.874245,0.02111052,0.15625,5,0,0,1.0
+280,1395,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,8.0,0.875,15331.901744,0.01819345,0.09375,5,0,19,1.0
+281,1400,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,1.0,5191.501368,0.00381005,0.214286,5,0,0,1.0
+281,1400,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,3.0,1.0,4748.807095,0.00329404,0.214286,5,0,19,1.0
+282,1405,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,0.5,6606.41228,0.00567631,0.333333,5,0,0,1.0
+282,1405,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,4.0,0.5,5975.012441,0.00525473,0.0,5,0,19,1.0
+283,1410,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,0.8,8774.152195,0.00728503,0.111111,5,0,0,1.0
+283,1410,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,5.0,0.8,8111.856185,0.00644851,0.0,5,0,19,1.0
+284,1415,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,1.0,5191.501368,0.00381005,0.0,5,0,0,1.0
+284,1415,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,3.0,1.0,4748.807095,0.00329404,0.0,5,0,19,1.0
+285,1420,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,2.0,1.0,3291.472372,0.00169336,0.0,5,0,0,1.0
+285,1420,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,2.0,1.0,2960.026683,0.00146402,0.0,5,0,19,1.0
+286,1425,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,1.0,1.0,1560.971916,0.00042334,0.5,5,0,0,1.0
+286,1425,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,1.0,1.0,1377.090985,0.000366,0.5,5,0,19,1.0
+287,1430,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,1.0,9500.144981,0.01058348,0.0,5,0,0,1.0
+287,1430,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,5.0,1.0,8943.902059,0.00915012,0.0,5,0,19,1.0
+288,1435,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,0.5,6606.41228,0.00567631,0.5,5,0,0,1.0
+288,1435,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,4.0,0.5,5975.012441,0.00525473,0.214286,5,0,19,1.0
+289,1440,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,9.0,1.0,20415.44907,0.04044459,0.052632,5,0,0,1.0
+289,1440,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,9.0,1.0,19908.761815,0.03172735,0.052632,5,0,19,1.0
+290,1445,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,8.0,1.0,17323.227251,0.02901771,0.157895,5,0,0,1.0
+290,1445,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,8.0,1.0,16806.595989,0.02391798,0.157895,5,0,19,1.0
+291,1450,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,1.0,9500.144981,0.01058348,0.090909,5,0,0,1.0
+291,1450,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,5.0,1.0,8943.902059,0.00915012,0.090909,5,0,19,1.0
+292,1455,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,1.0,7261.058905,0.00677343,0.0,5,0,0,1.0
+292,1455,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,4.0,1.0,6743.43222,0.00585608,0.0,5,0,19,1.0
+293,1460,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,3.0,1.0,5191.501368,0.00381005,0.142857,5,0,0,1.0
+293,1460,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,3.0,1.0,4748.807095,0.00329404,0.142857,5,0,19,1.0
+294,1465,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,7.0,1.0,14503.780955,0.02108786,0.15625,5,0,0,1.0
+294,1465,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,7.0,1.0,13963.47778,0.01795395,0.15625,5,0,19,1.0
+295,1470,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,0.8,8774.152195,0.00728503,0.2,5,0,0,1.0
+295,1470,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,5.0,0.8,8111.856185,0.00644851,0.1,5,0,19,1.0
+296,1475,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,1.0,9500.144981,0.01058348,0.0,5,0,0,1.0
+296,1475,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,5.0,1.0,8943.902059,0.00915012,0.0,5,0,19,1.0
+297,1480,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,0.8,8774.152195,0.00728503,0.363636,5,0,0,1.0
+297,1480,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,5.0,0.8,8111.856185,0.00644851,0.272727,5,0,19,1.0
+298,1485,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,4.0,0.75,6704.594659,0.00448303,0.3125,5,0,0,1.0
+298,1485,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,4.0,0.75,6117.231059,0.00400405,0.1875,5,0,19,1.0
+299,1490,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,2.0,0.5,3074.065207,0.00141908,0.333333,5,0,0,1.0
+299,1490,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,2.0,0.5,2745.514949,0.00131368,0.0,5,0,19,1.0
+300,1495,R2,Sustained long-chain hotspot,initial_static_fpdwgc,Initial static FPDWGC,0,5.0,0.6,8506.441276,0.00747024,0.25,5,0,0,1.0
+300,1495,R2,Sustained long-chain hotspot,causal_dynamic_fpdwgc,Causal dynamic FPDWGC,3,5.0,0.6,7763.792852,0.00684176,0.0,5,0,19,1.0

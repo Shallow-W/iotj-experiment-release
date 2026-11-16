@@ -1,0 +1,26 @@
+method,method_id,from_window,to_window,migrated_nodes,migration_rate,stability_rate
+No clustering/global domain,global,slots_1_50,slots_51_100,0,0.0,1.0
+No clustering/global domain,global,slots_51_100,slots_101_150,0,0.0,1.0
+No clustering/global domain,global,slots_101_150,slots_151_200,0,0.0,1.0
+No clustering/global domain,global,slots_151_200,slots_201_250,0,0.0,1.0
+No clustering/global domain,global,slots_201_250,slots_251_300,0,0.0,1.0
+Static geographic partition,static_geo,slots_1_50,slots_51_100,0,0.0,1.0
+Static geographic partition,static_geo,slots_51_100,slots_101_150,0,0.0,1.0
+Static geographic partition,static_geo,slots_101_150,slots_151_200,0,0.0,1.0
+Static geographic partition,static_geo,slots_151_200,slots_201_250,0,0.0,1.0
+Static geographic partition,static_geo,slots_201_250,slots_251_300,0,0.0,1.0
+K-means,kmeans,slots_1_50,slots_51_100,0,0.0,1.0
+K-means,kmeans,slots_51_100,slots_101_150,0,0.0,1.0
+K-means,kmeans,slots_101_150,slots_151_200,0,0.0,1.0
+K-means,kmeans,slots_151_200,slots_201_250,0,0.0,1.0
+K-means,kmeans,slots_201_250,slots_251_300,0,0.0,1.0
+Spectral clustering,spectral,slots_1_50,slots_51_100,0,0.0,1.0
+Spectral clustering,spectral,slots_51_100,slots_101_150,0,0.0,1.0
+Spectral clustering,spectral,slots_101_150,slots_151_200,0,0.0,1.0
+Spectral clustering,spectral,slots_151_200,slots_201_250,0,0.0,1.0
+Spectral clustering,spectral,slots_201_250,slots_251_300,0,0.0,1.0
+FPDWGC-tuned,fpdwgc_tuned,slots_1_50,slots_51_100,2,0.04,0.96
+FPDWGC-tuned,fpdwgc_tuned,slots_51_100,slots_101_150,5,0.1,0.9
+FPDWGC-tuned,fpdwgc_tuned,slots_101_150,slots_151_200,0,0.0,1.0
+FPDWGC-tuned,fpdwgc_tuned,slots_151_200,slots_201_250,0,0.0,1.0
+FPDWGC-tuned,fpdwgc_tuned,slots_201_250,slots_251_300,4,0.08,0.92

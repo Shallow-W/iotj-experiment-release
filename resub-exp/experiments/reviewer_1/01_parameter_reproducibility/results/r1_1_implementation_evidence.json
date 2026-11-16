@@ -1,0 +1,150 @@
+{
+  "source_files": {
+    "state_action_mask_script": "hjw_disanzhangbishe/仿真实验/D3QN_STATEMASK_PRI_YANMA.py",
+    "state_mask_only_script": "hjw_disanzhangbishe/仿真实验/D3QN_STATEMASK_PRI.py",
+    "data_dir": "hjw_disanzhangbishe/50endpoints_nms"
+  },
+  "line_evidence": {
+    "data_prefix": {
+      "file": "hjw_disanzhangbishe/仿真实验/D3QN_STATEMASK_PRI_YANMA.py",
+      "line": 45,
+      "text": "file_prefix = '50endpoints_nms/'"
+    },
+    "node_rows": {
+      "file": "hjw_disanzhangbishe/仿真实验/D3QN_STATEMASK_PRI_YANMA.py",
+      "line": 51,
+      "text": "for i in range(2, 52):"
+    },
+    "microservice_rows": {
+      "file": "hjw_disanzhangbishe/仿真实验/D3QN_STATEMASK_PRI_YANMA.py",
+      "line": 104,
+      "text": "for i in range(2, 12):"
+    },
+    "request_totals_row": {
+      "file": "hjw_disanzhangbishe/仿真实验/D3QN_STATEMASK_PRI_YANMA.py",
+      "line": 117,
+      "text": "request_account_info.append(request_sheet.cell(row=302, column=i).value)"
+    },
+    "missing_traffic_delay": {
+      "file": "hjw_disanzhangbishe/仿真实验/D3QN_STATEMASK_PRI_YANMA.py",
+      "line": 133,
+      "text": "missing_traffic_delay = 400  # 整个网络中没有成功分配的流量的情况，具体含义就是这个微服务没有任何的部署，那么原本计划要通过它的流量就全部处于待分配状态，此时计算时延是一个定值,现在是400ms"
+    },
+    "agent_defaults": {
+      "file": "hjw_disanzhangbishe/仿真实验/D3QN_STATEMASK_PRI_YANMA.py",
+      "line": 446,
+      "text": "def __init__(self, state_dim, action_dim, lr=0.001, gamma=0.99, epsilon=1.0, epsilon_decay=200, min_epsilon=0.005,"
+    },
+    "hard_mask_random_branch": {
+      "file": "hjw_disanzhangbishe/仿真实验/D3QN_STATEMASK_PRI_YANMA.py",
+      "line": 477,
+      "text": "while 1:"
+    },
+    "hard_mask_q_penalty": {
+      "file": "hjw_disanzhangbishe/仿真实验/D3QN_STATEMASK_PRI_YANMA.py",
+      "line": 497,
+      "text": "q_values[node] = -1e9"
+    },
+    "episodes": {
+      "file": "hjw_disanzhangbishe/仿真实验/D3QN_STATEMASK_PRI_YANMA.py",
+      "line": 629,
+      "text": "episodes = 1000"
+    },
+    "state_mask_only_random_action": {
+      "file": "hjw_disanzhangbishe/仿真实验/D3QN_STATEMASK_PRI.py",
+      "line": 476,
+      "text": "return random.randint(0, self.action_dim - 1)"
+    }
+  },
+  "extracted_parameters": {
+    "agent_defaults": {
+      "lr": 0.001,
+      "gamma": 0.99,
+      "epsilon": 1.0,
+      "epsilon_decay": 200,
+      "min_epsilon": 0.005,
+      "max_epsilon": 0.95,
+      "buffer_size": 1024,
+      "batch_size": 128,
+      "alpha": 0.6,
+      "beta": 0.4,
+      "beta_increment": 0.001,
+      "eps": 1e-06
+    },
+    "mec_nodes_used_by_script": 50,
+    "mec_type_counts": [
+      {
+        "cpu": 4,
+        "mem": 16,
+        "disk": 500,
+        "gpu": 0,
+        "count": 17
+      },
+      {
+        "cpu": 32,
+        "mem": 64,
+        "disk": 1024,
+        "gpu": 0,
+        "count": 17
+      },
+      {
+        "cpu": 64,
+        "mem": 256,
+        "disk": 4096,
+        "gpu": 64,
+        "count": 16
+      }
+    ],
+    "microservice_types": 10,
+    "microservice_demand_ranges": {
+      "cpu": {
+        "min": 1,
+        "max": 16
+      },
+      "mem": {
+        "min": 2,
+        "max": 64
+      },
+      "disk": {
+        "min": 20,
+        "max": 1000
+      },
+      "gpu": {
+        "min": 0,
+        "max": 32
+      }
+    },
+    "service_chain_templates": 5,
+    "service_chain_lengths": [
+      3,
+      4,
+      4,
+      2,
+      2
+    ],
+    "request_classes": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ],
+    "request_totals": [
+      100,
+      50,
+      100,
+      1000,
+      140
+    ],
+    "request_total_sum": 1390,
+    "request_time_slots": 300,
+    "ap_account": 14,
+    "microservice_instance_target_sum": 43
+  },
+  "integrity_notes": [
+    "The implementation reads exactly 50 MEC rows from node_resource.xlsx even though the workbook contains an aggregate row later.",
+    "The state-action mask variant implements a hard feasibility mask by rejecting invalid random actions and assigning -1e9 to invalid greedy-action Q values.",
+    "The high-end MEC GPU value in the implementation data is 64, while the current manuscript table states 96; R1-1 should report the actual implementation value or explicitly correct the dataset.",
+    "The traffic-to-request scaling factor kappa is still not recoverable from these implementation files; only the generated request totals are visible."
+  ]
+}

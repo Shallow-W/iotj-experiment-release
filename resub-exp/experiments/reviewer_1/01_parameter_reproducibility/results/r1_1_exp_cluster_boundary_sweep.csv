@@ -1,0 +1,7 @@
+target_mec_per_cluster,cluster_count,min_cluster_size,max_cluster_size,mean_cluster_size,mean_intra_cluster_distance,max_local_action_space,mean_local_action_space
+5,10,5,5,5.0,134.451429,50,50.0
+8,7,2,8,7.142857,140.719567,80,71.428571
+10,5,10,10,10.0,141.574986,100,100.0
+12,5,2,12,10.0,144.395649,120,100.0
+15,4,5,15,12.5,147.527624,150,125.0
+20,3,10,20,16.666667,154.953783,200,166.666667

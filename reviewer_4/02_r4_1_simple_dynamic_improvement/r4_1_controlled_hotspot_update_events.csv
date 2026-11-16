@@ -1,0 +1,4 @@
+event_idx,detected_slot,applied_slot,observation_start_slot,observation_end_slot,tv_distance,threshold,trigger_type,selected_source,objective_score,observed_delay_ms,observed_load_variance,observed_psi,migrated_nodes,migration_rate,partition_stability,changed_service_instances,cluster_count,cluster_time_ms,deployment_success_ratio
+1,70,71,61,70,0.724291,0.35,profile_shift,observed_window,1.115868,8914.213046,0.00642832,0.073803,12,0.24,0.76,30,5,0.715292,1.0
+2,160,161,151,160,0.143617,0.35,periodic_reoptimization,observed_window,1.096633,11218.147123,0.01448806,0.132978,4,0.08,0.92,23,5,0.716333,1.0
+3,180,181,171,180,0.169414,0.35,periodic_reoptimization,observed_window,1.120102,7115.186109,0.00689571,0.201875,3,0.06,0.94,11,5,0.842041,1.0

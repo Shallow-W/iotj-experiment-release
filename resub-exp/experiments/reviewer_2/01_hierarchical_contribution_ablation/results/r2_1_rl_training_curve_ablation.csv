@@ -1,0 +1,6 @@
+method,source_file,episodes,first_100_mean_delay,last_100_mean_delay,best_delay,final_episode_delay,first_to_last_improvement_pct,convergence_episode_50win_5pct
+DQN,hjw/chapter_3/choosed_data/delays_data_dqn.xlsx,1000,32127.209931,16700.381802,10944.753098,16336.190428,48.017952,619
+D3QN,hjw/chapter_3/choosed_data/delays_data_d3qn_nomask_nopri.xlsx,1000,28033.604729,21783.517697,11071.458735,22035.561374,22.294982,342
+D3QN+PER,hjw/chapter_3/choosed_data/delays_data_d3qn_nomask_pri.xlsx,1000,26209.18875,15433.067359,13341.248611,15094.981039,41.115814,574
+D3QN+mask,hjw/chapter_3/choosed_data/delays_data_d3qn_mask_nopri.xlsx,1000,27714.311152,21000.451066,10640.649133,21000.451066,24.225246,369
+MPD3QN,hjw/chapter_3/choosed_data/delays_data_d3qn_mask_pri.xlsx,1000,25804.869529,20865.206257,10137.441789,27172.650205,19.142369,277

@@ -1,0 +1,9 @@
+slice,swept_sigma,run_id,label,sigma_delay,sigma_res,mean_fullflow_delay,mean_trans_delay,mean_queue_delay,mean_missing_delay,load_variance,cut_loss,selected_weight_ratio,psi,resource_satisfaction_rate,cluster_size_min,cluster_size_max,failed_instances
+sweep_sigma_delay_at_sigma_res_1.0,0.25,S03,grid,0.25,1.0,13005.318559,9733.804701,3271.513858,0.0,0.00782857,0.401536,0.598464,0.287709,1.0,5,15,0
+sweep_sigma_delay_at_sigma_res_1.0,0.5,S07,grid,0.5,1.0,12262.489585,9034.737424,3227.752162,0.0,0.00570319,0.647898,0.352102,0.296089,1.0,5,15,0
+sweep_sigma_delay_at_sigma_res_1.0,1.0,S11,default,1.0,1.0,11479.984451,7483.233461,3996.75099,0.0,0.01884612,0.720027,0.279973,0.25,1.0,5,15,0
+sweep_sigma_delay_at_sigma_res_1.0,2.0,S15,grid,2.0,1.0,10791.064023,7175.583243,3615.480781,0.0,0.01612391,0.737754,0.262246,0.24162,1.0,5,15,0
+sweep_sigma_res_at_sigma_delay_1.0,0.25,S09,grid,1.0,0.25,11114.786177,7311.935196,3802.850981,0.0,0.02079023,0.543587,0.456413,0.22486,1.0,5,15,0
+sweep_sigma_res_at_sigma_delay_1.0,0.5,S10,grid,1.0,0.5,9899.243553,5939.158689,3960.084864,0.0,0.02917948,0.65123,0.34877,0.24162,1.0,5,15,0
+sweep_sigma_res_at_sigma_delay_1.0,1.0,S11,default,1.0,1.0,11479.984451,7483.233461,3996.75099,0.0,0.01884612,0.720027,0.279973,0.25,1.0,5,15,0
+sweep_sigma_res_at_sigma_delay_1.0,2.0,S12,grid,1.0,2.0,12065.951121,7559.22143,4506.729691,0.0,0.02616905,0.740028,0.259972,0.363128,1.0,5,15,0

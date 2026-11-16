@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "experiment_id": "R2-1",
+    "title": "Hierarchical contribution attribution ablation",
+    "date": "2026-07-20",
+    "purpose": "Separate the contribution of the clustering control plane from the RL optimizer under a shared end-to-end deployment-routing evaluator."
+  },
+  "shared_setting": {
+    "mec_servers": 50,
+    "microservice_types": 10,
+    "request_time_slots": 300,
+    "cluster_count_rule": "K=ceil(M/10)",
+    "cluster_size_min": 5,
+    "cluster_size_max": 15,
+    "target_mec_per_cluster": 10,
+    "default_sigma_delay": 1.0,
+    "default_sigma_res": 1.0,
+    "default_xi": 0.8,
+    "default_degradation": {
+      "rho_th": 0.7,
+      "varphi": 1.0,
+      "f_min": 0.2
+    }
+  },
+  "clustering_layer_ablation": {
+    "fixed_lower_policy": "MPD3QN-compatible deployment heuristic with the same service preference and resource mask used in the R1-2 full-flow validation.",
+    "methods": [
+      "No clustering/global domain",
+      "Static geographic partition",
+      "K-means",
+      "Spectral clustering",
+      "FPDWGC"
+    ],
+    "primary_metrics": [
+      "mean_fullflow_delay",
+      "load_variance",
+      "psi",
+      "resource_satisfaction_rate",
+      "decision_time_ms",
+      "local_action_space"
+    ]
+  },
+  "rl_optimizer_ablation": {
+    "fixed_upper_policy": "FPDWGC cluster assignment with default sigma_delay=sigma_res=1.0.",
+    "methods": [
+      "DQN",
+      "D3QN",
+      "D3QN+PER",
+      "D3QN+mask",
+      "MPD3QN"
+    ],
+    "primary_metrics": [
+      "mean_fullflow_delay",
+      "load_variance",
+      "psi",
+      "resource_satisfaction_rate",
+      "invalid_action_rate"
+    ],
+    "historical_training_curve_files": "hjw/chapter_3/choosed_data"
+  }
+}

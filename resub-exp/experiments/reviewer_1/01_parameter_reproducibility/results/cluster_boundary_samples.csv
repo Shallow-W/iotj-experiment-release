@@ -1,0 +1,4 @@
+mec_servers,cluster_count_rule,cluster_count,average_mec_per_cluster,N_min,N_max
+50,ceil(M/10),5,10.0,5,15
+75,ceil(M/10),8,9.375,5,15
+100,ceil(M/10),10,10.0,5,15
