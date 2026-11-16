@@ -8,7 +8,7 @@ The figure identifiers below follow the TeX artwork filenames.
 
 | Experiment | Manuscript artwork | Available data and code |
 |---|---|---|
-| Service-cluster partitioning | [10a–c](figures/clustering/) | The original cluster assignments and figure source tables are unavailable. [Capacity-constrained K-means prototype](code/clustering/balanced_kmeans.py). The revision includes a separate [FPDWGC and clustering evaluation](../reviewer_3/02_r3_2_clustering_baselines/). |
+| Service-cluster partitioning | [10a–c](figures/clustering/) | The original cluster assignments and figure source tables are unavailable. [Capacity-constrained K-means prototype](code/clustering/balanced_kmeans.py). The revision includes a separate [FPDWGC and clustering evaluation](../resub-exp/figures/reviewer_3/02_r3_2_clustering_baselines/). |
 | Priority experience replay ablation | [11a–b](figures/per/) | [Saved training workbooks](results/training/) for the full model and d3qn_mask_nopri. |
 | Feasibility mask ablation | [12a–b](figures/masking/) | [Saved training workbooks](results/training/) for the full model and d3qn_nomask_pri. |
 | End-to-end delay by system scale | [13a–d](figures/delay_by_scale/) | [Historical plotting script](code/archived_plots/draw2.py) and [50- and 100-node runner variants](code/training/). Several bar heights are computed from fixed multipliers in the plotting script. Source run logs for the full sweep are unavailable. |
@@ -49,6 +49,6 @@ The one-episode run checks that training and result export work. Omit IOTJ_EPISO
 | Baselines | [DQN](code/training/DQN.py), [SAC](code/training/SAC.py), [GDDPG](code/training/DDPG.py) |
 | Scale variants | [50 MEC nodes](code/training/50nodes_D3QN_PRI.py), [100 MEC nodes](code/training/100nodes_D3QN_PRI.py) |
 
-The training entries use the [50- and 100-endpoint simulator inputs](inputs/), including aggregated request counts derived for the simulation. The underlying PeMS03 detector archive is a separate data source. The revision runners use a different app.xlsx in each scenario. See the [supplementary experiment instructions](../EXPERIMENTS.md) for the exact mapping.
+The training entries use the [50- and 100-endpoint simulator inputs](inputs/), including aggregated request counts derived for the simulation. The underlying PeMS03 detector archive is a separate data source. The revision runners use a different app.xlsx in each scenario. See the [revision experiment instructions](../resub-exp/README.md) for the exact mapping.
 
 The release copies replace the original machine-specific paths with package-relative inputs and outputs. They also correct a tuple subtraction in the GDDPG reward update. The 100-node runner now infers the network input size from the masked state and converts the resource state to an array before export.
